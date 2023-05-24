@@ -39,7 +39,7 @@ if($result == TRUE){
     $response['name'] = $name;
     $response['email'] = $email;
 } else{
-    // if the id entered by user donot exist then
+    // if the id entered by user does not exist then
     // we are displaying the error message
     $response['error'] = true;
     $response['message'] = "Incorrect id";
